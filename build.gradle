@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'Challenge'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+    // https://mvnrepository.com/artifact/io.cucumber/cucumber-java
+    implementation 'io.cucumber:cucumber-java:7.12.1'
+    implementation 'io.cucumber:cucumber-junit:7.12.1'
+    implementation 'org.slf4j:slf4j-simple:1.7.25'
+    
+
+}
+
+test {
+    systemProperty "cucumber.options", System.getProperty ("cucumber.options")
+}
