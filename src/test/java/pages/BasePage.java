@@ -65,5 +65,9 @@ public class BasePage {
         }
     }
 
+    public void type (String inputText, By locator){
+        driver.findElement(locator).sendKeys(inputText);
+    }
+
 }
 
