@@ -1,5 +1,8 @@
-package pages;
+package org.met.testing.challenges.pages;
 
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 public class FormPage extends BasePage {
 
@@ -10,28 +13,22 @@ public class FormPage extends BasePage {
     public String adress = "//input[@id='wsf-1-field-49']";
 
 
-public FormPage() {
-
-    super(driver);
+    public FormPage() {
+        super(driver);
     }
 
 
-    public void navigateToPage(){
+    public void navigateToPage() {
         navigateTo("https://testingqarvn.com.es/combobox/");
-        
     }
 
     public void fillForm() {
-        if(elementIsDisplayed(name)) {
+            System.out.println("ejecutando fill");
+
             write(name, "Valentina");
             write(lastname, "Bianchi");
             write(email, "valen@gmail.com");
             write(phone, "2213508669");
-            write(adress, "curuzu cuatia 2316");
-
-        }
-
+            //write(adress, "curuzu cuatia 2316");
+    }
 }
-}
-
-
