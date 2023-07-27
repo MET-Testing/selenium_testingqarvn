@@ -1,0 +1,14 @@
+{
+  "email": {
+    "gmail_com": "mail@gmail.com",
+    "hotmail_com": "mail@hotmail.com",
+    "gmail_org": "mail@gmail.org"
+  },
+  "phone": {
+    "plus_arg_cba_mobile_1": "+549351000000",
+    "plus_arg_cba_mobile_2": "+54351000000",
+    "arg_cba_mobile_1": "549351000000",
+    "arg_cba_mobile_2": "54351000000",
+    "cba_mobile": "351000000"
+  }
+}

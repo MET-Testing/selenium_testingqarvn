@@ -1,0 +1,19 @@
+{
+    "locators": {
+      "name": "//input[@id='wsf-1-field-45']",
+      "lastname": "//input[@id='wsf-1-field-46']",
+      "email": "//input[@id='wsf-1-field-47']",
+      "phone": "//input[@id='wsf-1-field-45']",
+      "address": "//textarea[@id='wsf-1-field-49']",
+      "python": "wsf-1-field-50-row-2",
+      "cypress": "wsf-1-field-51-row-1",
+      "submit": "wsf-1-field-52"
+    },
+    "values_1": {
+      "name": "Britney",
+      "lastname": "Spears",
+      "email": "labritney@mail.com",
+      "phone": "0800111999",
+      "address": "1456, Hollywood ave, LA"
+    }
+}

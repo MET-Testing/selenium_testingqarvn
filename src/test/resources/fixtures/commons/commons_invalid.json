@@ -1,0 +1,19 @@
+{
+  "no_data": {
+    "empty": "",
+    "null": null
+  },
+  "email": {
+    "missing_at": "mail.mail.com",
+    "missing_dot_com": "mail@mail",
+    "invalid_dot_com": "mail@mail.con",
+    "special_chars": "mail*someting@mail.com"
+  },
+  "phone": {
+    "alphanumeric": "0800something",
+    "special_chars": "0800-111-333",
+    "invalid_dot_com": "mail@mail.con",
+    "too_short": "08",
+    "negative_numbers": "-0800111222"
+  }
+}

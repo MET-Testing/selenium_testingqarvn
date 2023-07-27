@@ -4,12 +4,12 @@
 Web de pruebas para practicar Selenium con Java
 # Cómo empezar?
 
-0. **Ten instaladas Java & Gradle** <br>
+## 0. Ten instaladas Java & Gradle
 
 ## Java
 En tu terminal chequea si ya tienes Java
 ```
-java -version
+java --version
 ```
 Si Java ya está instalado, verás la versión instalada. Si no está instalado, el sistema te mostrará un mensaje indicando que no se encontró el comando <br>
 ### Windows
@@ -58,7 +58,7 @@ Instala Gradle con el siguiente comando:
 sdk install gradle
 ```
 
-1. **Configura  las variables de entorno JAVA_HOME** <br>
+## 1. Configura  las variables de entorno JAVA_HOME
 chequea donde se encuentra java:
 ```
 which java
@@ -76,7 +76,7 @@ Agrega la siguiente línea al archivo con la ruta de tu instalación de Java (re
 export JAVA_HOME=/ruta/a/java
 ```
 
-2. **Configura la variable de entorno PATH**
+## 2. Configura la variable de entorno PATH
 - Descarga el ChromeDriver adecuado para tu sistema operativo desde el [sitio oficial](https://sites.google.com/chromium.org/driver/)
 - Descomprime el archivo descargado para obtener el ejecutable del ChromeDriver.
 
@@ -98,7 +98,7 @@ chromedriver --version
 Debería mostrar la versión del ChromeDriver si está configurado correctamente.
 
 
-3. **Clona el repositorio**:
+## 3. Clona el repositorio:
 
 #### Https:
 ```
@@ -124,12 +124,13 @@ y luego
 gradle build
 ```
 
-4. **Corre los tests**
+## Corre los tests
 ```
 gradle test
+./gradlew test
 ```
 
- 5. **Crea tu rama con el gitFlow** correspondiente y empieza a codear! 🚀✨✨
+## 5. Crea tu rama con el gitFlow correspondiente y empieza a codear! 🚀✨✨
 
 # Criterios para hacer una PR
 
