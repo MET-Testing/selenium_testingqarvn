@@ -1,20 +1,22 @@
 package pages;
 
+
 import org.openqa.selenium.By;
 
 public class FormPage extends BasePage { 
 
-    private String name = "(//input[@id=\"wsf-1-field-45\"])";
-    private String lastname ="//input[@id=\"wsf-1-field-46\"]";
-    private String email = "(//input[@id='wsf-1-field-47'])";
-    private String phone = "(//input[@id='wsf-1-field-48'])";
-    private String adress = "//textarea[@id='wsf-1-field-49']";
-    By submit = By.id("wsf-1-field-52");
-    By radioButton1 = By.xpath("//div[@class='wsf-tile wsf-field-wrapper']//input[@value='CypressIO']");
-    By radioButton2 = By.id("wsf-1-label-51-row-2");
-    By phytonButton = By.id("wsf-1-label-50-row-2");
-    By phpButton = By.id("wsf-1-label-50-row-1");
-
+    private String name = "(//input[@id=\"wsf-1-field-54\"])";
+    private String lastname ="//input[@id=\"wsf-1-field-55\"]";
+    private String email = "(//input[@id='wsf-1-field-56'])";
+    private String phone = "(//input[@id='wsf-1-field-57'])";
+    private String adress = "//textarea[@id='wsf-1-field-58']";
+    By submit = By.id("wsf-1-field-62");
+    By radioButton1 = By.xpath("//label[@id='wsf-1-label-60-row-1']");
+    By radioButton2 = By.xpath("//label[@id='wsf-1-label-60-row-2']");
+    By phytonButton = By.id("wsf-1-label-59-row-2");
+    By phpButton = By.id("wsf-1-label-59-row-1");
+    By dropdown = By.id("wsf-1-field-61");
+    
 
     public FormPage() {
 
@@ -22,14 +24,14 @@ public class FormPage extends BasePage {
     }
 
     public void navigateToPage(){
-        navigateTo("https://testingqarvn.com.es/combobox/");
+        navigateTo("https://testingqarvn.com.es/combobox-dependiente/");
     }
     public void fillForm() {
         System.out.println("ejecutando fill");
 
         write(name, "Valentina");
         write(lastname,"Bianchi");
-        write(email, "valentinabinachik");
+        write(email, "valentinabinachik@gmail.com");
         write(phone, "2213508669");
         write(adress, "curuzu cuatia");
     
@@ -37,6 +39,7 @@ public class FormPage extends BasePage {
 
     public void clickLenguage(){
         click(phytonButton);
+        click(phpButton);
     }
     
     public void clickRadio(){
@@ -49,6 +52,10 @@ public class FormPage extends BasePage {
         click(submit);
     }
 
+    public void selectSystem(){
+        selectFromDropdownByVisibleText(dropdown, "Linux");
+
+    }
 }
 
 
