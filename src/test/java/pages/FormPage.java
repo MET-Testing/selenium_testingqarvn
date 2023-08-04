@@ -40,6 +40,7 @@ public class FormPage extends BasePage {
     public void clickLenguage(){
         click(phytonButton);
         click(phpButton);
+
     }
     
     public void clickRadio(){
@@ -48,14 +49,17 @@ public class FormPage extends BasePage {
 
     }
 
-    public void clickButton(){
-        click(submit);
-    }
-
     public void selectSystem(){
         selectFromDropdownByVisibleText(dropdown, "Linux");
 
     }
+
+    public void clickButton(){
+        click(submit);
+        
+    }
+
+    
 }
 
 

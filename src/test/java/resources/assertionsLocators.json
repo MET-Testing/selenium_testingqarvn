@@ -1,0 +1,32 @@
+{
+  "locators": {
+    "name": {
+      "label": "wsf-1-label-54",
+      "input": "wsf-1-field-54"
+    },
+    "lastname": {
+      "label": "wsf-1-label-55",
+      "input": "wsf-1-field-55"
+    },
+    "email": {
+      "label": "wsf-1-label-56",
+      "input": "wsf-1-field-56"
+    },
+    "phone": {
+      "label": "wsf-1-label-57",
+      "input": "wsf-1-field-57"
+    },
+    "address": {
+      "label": "wsf-1-label-58",
+      "input": "wsf-1-field-58"
+    },
+    "radioButtons": {
+      "radio1": "//input[@id='wsf-1-field-60-row-2']",
+      "radio2": "//input[@id='wsf-1-field-60-row-1']"
+    },
+    "language": {
+      "phpButton": "//label[@id='wsf-1-label-59-row-1']",
+      "pythonButton": "//label[@id='wsf-1-label-59-row-2']"
+    }
+  }
+}

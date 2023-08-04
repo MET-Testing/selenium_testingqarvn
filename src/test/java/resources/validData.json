@@ -1,0 +1,16 @@
+{
+    "locators": {
+      "name": "(//input[@id=\"wsf-1-field-54\"])",
+      "lastname": "(//input[@id=\"wsf-1-field-55\"])",
+      "email": "(//input[@id='wsf-1-field-56'])",
+      "phone": "(//input[@id='wsf-1-field-57'])",
+      "address": "//textarea[@id='wsf-1-field-58']"
+    },
+    "values_1": {
+      "name": "Britney",
+      "lastname": "Spears",
+      "email": "labritney@mail.com",
+      "phone": "0800111999",
+      "address": "1456, Hollywood ave, LA"
+    }
+}
